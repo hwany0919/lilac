@@ -1,0 +1,26 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    .main-content {
+        flex: 1;
+        padding: $spacing-xl;
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .footer {
+        padding: $spacing-lg;
+        text-align: center;
+        background-color: rgba($primary-color, 0.05);
+        border-top: 1px solid $border-color;
+
+        p {
+            margin: 0;
+            color: $text-color;
+            font-size: $font-size-sm;
+        }
+    }
+}

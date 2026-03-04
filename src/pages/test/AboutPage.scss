@@ -1,0 +1,76 @@
+.about-page {
+    max-width: 800px;
+    margin: 0 auto;
+
+    h1 {
+        font-size: 2.5rem;
+        color: $primary-color;
+        margin-bottom: $spacing-xxl;
+        text-align: center;
+    }
+
+    .section {
+        margin-bottom: $spacing-xxl;
+
+        h2 {
+            font-size: $font-size-xxl;
+            color: $text-color;
+            margin-bottom: $spacing-lg;
+            padding-bottom: $spacing-sm;
+            border-bottom: 2px solid $border-color;
+        }
+
+        .tech-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: $spacing-md;
+
+            .tech-item {
+                padding: $spacing-lg;
+                background-color: white;
+                border: 1px solid $border-color;
+                border-radius: $border-radius-md;
+                transition: all 0.2s;
+
+                &:hover {
+                    border-color: $primary-color;
+                    box-shadow: 0 4px 8px rgba($primary-color, 0.1);
+                }
+
+                h3 {
+                    color: $primary-color;
+                    font-size: $font-size-lg;
+                    margin-bottom: $spacing-xs;
+                }
+
+                p {
+                    color: $text-secondary;
+                    font-size: $font-size-sm;
+                    margin: 0;
+                }
+            }
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+
+            li {
+                padding: $spacing-md;
+                margin-bottom: $spacing-sm;
+                background-color: white;
+                border-left: 4px solid $primary-color;
+                border-radius: $border-radius-sm;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+                color: $text-color;
+
+                &::before {
+                    content: '✓';
+                    color: $primary-color;
+                    font-weight: bold;
+                    margin-right: $spacing-sm;
+                }
+            }
+        }
+    }
+}
