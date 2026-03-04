@@ -3,7 +3,7 @@
 ## 프로젝트 구조
 
 ```
-OnStyle/
+Lilac/
 ├── src/
 │   ├── components/     # React 컴포넌트
 │   ├── hooks/         # 커스텀 React 훅

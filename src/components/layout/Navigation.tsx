@@ -6,7 +6,7 @@ const Navigation = () => {
         <nav className="navigation">
             <div className="nav-container">
                 <div className="nav-brand">
-                    <NavLink to="/">OnStyle</NavLink>
+                    <NavLink to="/">Lilac</NavLink>
                 </div>
 
                 <ul className="nav-menu">

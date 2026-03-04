@@ -5,7 +5,7 @@ const HomePage = () => {
     return (
         <div className="home-page">
             <div className="hero-section">
-                <h1>OnStyle에 오신 것을 환영합니다</h1>
+                <h1>사이트에 방문하신 것을 환영합니다</h1>
                 <p className="subtitle">React + TypeScript + Vite + Zustand 기반의 모던 웹 애플리케이션</p>
 
                 <div className="feature-grid">

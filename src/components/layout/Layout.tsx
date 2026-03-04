@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom'
-import Navigation from './Navigation'
 import './Layout.scss'
+import Navigation from './Navigation'
 
 const Layout = () => {
     return (
@@ -12,7 +12,7 @@ const Layout = () => {
             </main>
 
             <footer className="footer">
-                <p>&copy; 2026 OnStyle. All rights reserved.</p>
+                <p>&copy; All rights reserved.</p>
             </footer>
         </div>
     )
