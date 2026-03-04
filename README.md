@@ -1,4 +1,4 @@
-# OnStyle
+# Lilac
 
 React + TypeScript + Vite + pnpm + Zustand 기반 프로젝트
 
