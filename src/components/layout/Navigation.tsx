@@ -7,16 +7,16 @@ const Navigation = () => {
     <nav className="navigation">
       <div className="nav-container">
         <div className="nav-brand">
-          <NavLink to={Menus.TestHome}>Lilac</NavLink>
+          <NavLink to={Menus.Home}>Lilac</NavLink>
         </div>
 
         <ul className="nav-menu">
           <li>
-            <NavLink to={Menus.TestHome} className={({ isActive }) => (isActive ? 'active' : '')} end>
+            <NavLink to={Menus.Home} className={({ isActive }) => (isActive ? 'active' : '')} end>
               홈
             </NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink to={Menus.About} className={({ isActive }) => (isActive ? 'active' : '')}>
               소개
             </NavLink>
@@ -25,7 +25,7 @@ const Navigation = () => {
             <NavLink to={Menus.Example} className={({ isActive }) => (isActive ? 'active' : '')}>
               예시
             </NavLink>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

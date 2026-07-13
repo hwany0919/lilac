@@ -11,13 +11,8 @@ const Router = () => {
       <BrowserRouter>
         <Routes>
           <Route path={Menus.Login} element={<Pages.Login />} />
-          <Route path={Menus.Home} element={<Pages.Main />}>
-            <Route index element={<Pages.Home />} />
-          </Route>
           <Route element={<Layout />}>
-            <Route path={Menus.About} element={<Pages.About />} />
-            <Route path={Menus.Example} element={<Pages.Example />} />
-            <Route path={Menus.TestHome} element={<Pages.TestHome />} />
+            <Route path={Menus.Home} element={<Pages.Home />} />
           </Route>
           <Route path="*" element={<Pages.NotFound />} />
         </Routes>
