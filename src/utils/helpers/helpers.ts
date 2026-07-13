@@ -4,7 +4,7 @@
  * @returns 포맷팅된 문자열
  */
 export const formatNumber = (num: number): string => {
-    return num.toLocaleString('ko-KR')
+  return num.toLocaleString('ko-KR')
 }
 
 /**
@@ -14,8 +14,8 @@ export const formatNumber = (num: number): string => {
  * @returns 잘린 문자열
  */
 export const truncateText = (text: string, maxLength: number): string => {
-    if (text.length <= maxLength) return text
-    return text.slice(0, maxLength) + '...'
+  if (text.length <= maxLength) return text
+  return text.slice(0, maxLength) + '...'
 }
 
 /**
@@ -24,6 +24,6 @@ export const truncateText = (text: string, maxLength: number): string => {
  * @returns 유효한 경우 true
  */
 export const isValidEmail = (email: string): boolean => {
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
-    return emailRegex.test(email)
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+  return emailRegex.test(email)
 }

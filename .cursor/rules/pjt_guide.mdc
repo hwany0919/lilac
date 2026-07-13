@@ -1,3 +1,7 @@
+---
+alwaysApply: true
+---
+
 **Rule:** Always responed in Korean.
 **Rule:** Setter functions are stable and should not be included in the dependency array.
 **Rule:** Act as a React expert. Always use functional components with TypeScript and follow ES6 syntax. Keep responses concise and avoid unnecessary repetition.
