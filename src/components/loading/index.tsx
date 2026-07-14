@@ -1,3 +1,4 @@
+import { memo } from 'react'
 import { LOADING_TYPE, type LoadingType } from './const'
 import './styles.scss'
 
@@ -25,6 +26,4 @@ const Loading = ({ type = LOADING_TYPE.SPINNER }: LoadingProps) => {
   )
 }
 
-export default Loading
-export { LOADING_TYPE }
-export type { LoadingType }
+export default memo(Loading)
